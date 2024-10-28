@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>INST 377 Lab 6</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin="" defer></script>
+        <script src="website.js" defer></script>
+        <style>
+            #map {
+                height: 380px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Map of the U.S.</h1>
+
+        <div id="map"></div>
+
+        <h2>Marker 1: Latitude: <span id="lat1"></span>, Longitude: <span id="lon1"></span></h2>
+        <p>Locality: <span id="loc1"></span></p>
+
+        <h2>Marker 2: Latitude: <span id="lat2"></span>, Longitude: <span id="lon2"></span></h2>
+        <p>Locality: <span id="loc2"></span></p>
+
+        <h2>Marker 3: Latitude: <span id="lat3"></span>, Longitude: <span id="lon3"></span></h2>
+        <p>Locality: <span id="loc3"></span></p>
+    </body>
+</html>
